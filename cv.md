@@ -44,7 +44,18 @@ I am creating a game in the process of learning JS. Current version is available
 
 
 ### __Education:__
+
 Master of Philology 
 
 Simulators [HTML Academy](https://htmlacademy.ru/)
 
+
+JavaScript Manual on [javascript.ru](https://learn.javascript.ru/) (in progress)
+
+### __Language:__
+
+Russian - native
+
+English - Intermediate (B1) - (according to the online test at [www.efset.org](https://www.efset.org/quick-check))
+
+![English test result](/img/English.png)
