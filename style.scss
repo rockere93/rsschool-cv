@@ -20,12 +20,14 @@ li {
 body {
     margin: 0;
     padding: 0;
+    background-color: #dddddd;
 }
 
 
 .wrapper-1080 {
     margin: 0 auto;
     width: 1080px;
+    box-shadow: -15px 3px 8px -6px rgba(0, 0, 0, 0.2);  
 }
 
 //-----------------HEADER---------------------//
@@ -57,3 +59,39 @@ body {
 }
 
 
+//------------------PAGE-MAIN-----------------//
+
+.page-main {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    position: relative;
+    background-color: white;
+}
+
+.side-block {
+    position: relative;
+    top: -10%;
+    left: 10%;
+    padding: 6%;
+    background-color: #e3e9e9;
+}
+
+.side-block__photo {
+    margin: 0 auto;
+
+    &> img {
+        width: 100%;
+    }
+}
+
+
+.main-content {
+    padding-top: 6%;
+    padding-left: 9%;
+}
+
+//------------FOOTER-------------////
+
+.page-footer {
+    background-color: #154365;
+}
