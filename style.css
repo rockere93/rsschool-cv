@@ -182,6 +182,9 @@ body {
   background-color: #154365;
 }
 
+.page-footer__link-github > a {
+  color: white;
+}
 .page-footer__link-github > a:active {
   color: white;
 }
