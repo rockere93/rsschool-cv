@@ -193,4 +193,9 @@ body {
 
 .page-footer__logo-rsschool {
   width: 100px;
+}
+
+.page-footer__logo-rsschool > a > img:hover {
+  transition: width 200ms;
+  width: 110%;
 }/*# sourceMappingURL=style.css.map */
