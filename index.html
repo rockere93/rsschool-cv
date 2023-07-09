@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Ushakov A.A.</title>
+</head>
+
+<body>
+    <div class="wrapper-1080">
+        <header class="page-header">
+            <div class="header-title">
+                <h1 class="header-title__title">Artem Ushakov</h1>
+                <h2 class="header-title__subtitle">Frontend Developer</h2>
+            </div>
+            <nav class="header-menu">
+                <ul class="header-menu__list">
+                    <li class="header-menu__item"><a href="#skills">Skills and Proficiency</a></li>
+                    <li class="header-menu__item"><a href="#code">Code example</a></li>
+                    <li class="header-menu__item"><a href="#projects">Projects</a></li>
+                    <li class="header-menu__item"><a href="#education">Education</a></li>
+                    <li class="header-menu__item"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page-main">
+            <div class="side-block">
+                <div class="side-block__photo"><img src="./assets/img/photo.jpg" alt="photo Artem Ushakov"
+                        class="header-photo__img"></div>
+                <div class="side-block__contacts">
+                    <a id="contacts"></a>
+                    <h2 class="block-title">Contacts</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__item">Telegram: @rockere93</li>
+                        <li class="contacts__item">E-mail: pirat93.93@mail.ru</li>
+                        <li class="contacts__item">Discord: #rockere93</li>
+                    </ul>
+                </div>
+                <div class="side-block__education">
+                    <a id="education"></a>
+                    <h2 class="block-title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">Master of Philology</li>
+                        <li class="education__item">Simulators <a href="https://htmlacademy.ru/">HTML Academy</a></li>
+                        <li class="education__item">JavaScript Manual on <a
+                                href='https://learn.javascript.ru/'>javascript.ru</a></li>
+                    </ul>
+                </div>
+                <div class="side-block__language">
+                    <h2 class="block-title">Language</h2>
+                    <ul class="language__list">
+                        <li class="language__item">Russian - native</li>
+                        <li class="language__item">English - intermediate (B1)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-content__brief">
+                    <h2 class="block-title">Briefly About Myself</h2>
+                    <p>I work in marketing, but I want to become a frontend-developer. I have been studying JS for 14
+                        months. I'm learning English, but I still have a low level of knowledge.</p>
+                </div>
+                <div class="main-content__skills">
+                    <a id="skills"></a>
+                    <h2 class="block-title">Skills and Proficiency</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML5, CSS3 Basics</li>
+                        <li class="skills__item">JavaScript Basics</li>
+                        <li class="skills__item">Git, GitHub</li>
+                        <li class="skills__item">VS Code</li>
+                        <li class="skills__item">Webpack</li>
+                        <li class="skills__item">Adobe Photoshop, Figma</li>
+                    </ul>
+                </div>
+                <div class="main-content__code-example">
+                    <a id="code"></a>
+                    <h2 class="block-title">Code example</h2>
+                    <div class="code-example__block">
+                        <div class="code-example__task">
+                            <h3>Task</h3>
+                            <p>We want to create a constructor function 'NameMe', which takes first name and last name
+                                as
+                                parameters. The function combines the first and last names and saves the value in "name"
+                                property.</p>
+                        </div>
+                        <div class="code-block">
+                            <h3>Solution</h3>
+                            <code class="code-example__code">
+                    function NameMe(first, last) { <br>
+                        return {<br>
+                            name: first + ' ' + last, <br>
+                            firstName: first, <br>
+                            lastName: last}; <br>
+                    }
+                            </code>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content__projects">
+                    <a id="projects"></a>
+                    <h2 class="block-title">Projects</h2>
+                    <div class="projects__group">
+                        <div class="projects__item">
+                            <h3>Ping-pong in Dark Souls style</h3>
+                            <a href="https://rockere93.github.io/ping-pong-DS/" target="_blank"><img src="./assets/img/ping-pong.jpg" alt="ping-pong screenshot"></a>
+                        </div>
+                        <div class="projects__item">
+                            <h3>Text quest in Dark fantasy style (in progress)</h3>
+                            <a href="https://rockere93.github.io/darklubok/dist/index.html" target="_blank"><img
+                                    src="./assets/img/darklubok.jpg" alt="darklubok screenshot"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <div class="page-footer__copyright">2023 by Artem Ushakov</div>
+            <div class="page-footer__link-github"><a href="https://github.com/rockere93">GitHub</a></div>
+            <div class="page-footer__logo-rsschool"><a href="https://rs.school/js/"><img
+                        src="./assets/img/rs_school_js.svg" alt="RS school logo"></a></div>
+        </footer>
+    </div>
+</body>
+
+</html>
