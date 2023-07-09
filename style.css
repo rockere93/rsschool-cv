@@ -21,6 +21,10 @@ li {
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -54,8 +58,20 @@ body {
 }
 
 .header-menu__item {
-  height: 5vh;
-  margin-right: 2vh;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.header-menu__item > a:active {
+  color: white;
+}
+.header-menu__item > a:visited {
+  color: white;
+}
+.header-menu__item > a:hover {
+  transition-property: border-bottom;
+  transition-duration: 200ms;
+  border-bottom: 2px solid white;
 }
 
 .block-title {
@@ -101,6 +117,17 @@ body {
   list-style: inside;
 }
 
+.education__item > a {
+  color: #0080de;
+}
+.education__item > a:hover {
+  transition: color 200ms;
+  color: #154365;
+}
+.education__item > a:active {
+  color: #0080de;
+}
+
 .main-content {
   padding: 3% 9%;
 }
@@ -137,6 +164,33 @@ body {
   padding: 10px 10px 0 0px;
 }
 
+.projects__item a > img:hover {
+  transition: filter 500ms;
+  filter: opacity(0.8);
+}
+
 .page-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  font-size: larger;
+  color: white;
   background-color: #154365;
+}
+
+.page-footer__link-github > a:active {
+  color: white;
+}
+.page-footer__link-github > a:hover {
+  transition-property: border-bottom;
+  transition-duration: 200ms;
+  border-bottom: 2px solid white;
+}
+.page-footer__link-github > a:visited {
+  color: white;
+}
+
+.page-footer__logo-rsschool {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
