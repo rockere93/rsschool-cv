@@ -1,5 +1,5 @@
 # **Artem Ushakov**
-## Future Junior Frontend Devoloper
+## Frontend Devoloper
 *********
 
 ### __Contacs__:
@@ -36,7 +36,7 @@ function NameMe(first, last) {
 }
 ```
 
-### __Experience:__
+### __Projects__
 
 I created a game in the process of learning JS. The game is available at [the link](https://rockere93.github.io/ping-pong-DS/)
 
